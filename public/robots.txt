@@ -1,0 +1,4 @@
+# Demo site: keep fictional content out of search indexes.
+# Replace this file with an allow rule only when launching a real client site.
+User-agent: *
+Disallow: /

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="%LANG%">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="%THEME_COLOR%" />
+    <meta name="description" content="%SEO_DESCRIPTION%" />
+    <meta name="robots" content="%ROBOTS%" />
+    <title>%SEO_TITLE%</title>
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    %CANONICAL%
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="%OG_LOCALE%" />
+    <meta property="og:site_name" content="%SITE_NAME%" />
+    <meta property="og:title" content="%SEO_TITLE%" />
+    <meta property="og:description" content="%SEO_DESCRIPTION%" />
+    <meta property="og:image" content="%OG_IMAGE%" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="%OG_IMAGE_ALT%" />
+    %OG_URL%
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="%SEO_TITLE%" />
+    <meta name="twitter:description" content="%SEO_DESCRIPTION%" />
+    <meta name="twitter:image" content="%OG_IMAGE%" />
+    <meta name="twitter:image:alt" content="%OG_IMAGE_ALT%" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&family=Noto+Sans+Tamil:wght@400;500;600&family=Noto+Serif+Tamil:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    %HERO_PRELOAD%
+    %STRUCTURED_DATA%
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <div
+        style="
+          min-height: 100vh;
+          display: grid;
+          place-items: center;
+          padding: 2rem;
+          background: #10100f;
+          color: #f5f0e8;
+          font-family: Georgia, serif;
+          text-align: center;
+        "
+      >
+        <div>
+          <p style="letter-spacing: 0.25em; font-size: 12px; color: #c7a56b">PONNIYIN VIRUNDHU</p>
+          <p lang="ta" style="font-size: 22px; margin-top: 0.75rem; color: #c7a56b">
+            பொன்னியின் விருந்து
+          </p>
+          <p style="font-size: 24px; margin-top: 0.75rem">A Taste of Tamil Tradition.</p>
+          <p style="font-family: system-ui, sans-serif; color: #b5ada0; font-size: 14px">
+            This website needs JavaScript enabled to display the menu and reservation demo.
+          </p>
+        </div>
+      </div>
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
